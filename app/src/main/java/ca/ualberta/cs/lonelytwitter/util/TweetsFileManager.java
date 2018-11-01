@@ -1,4 +1,10 @@
-package ca.ualberta.cs.lonelytwitter;
+/*
+ * Copyright (c) Team X, CMPUT301, University of Alberta - All Rights Reserved. You may use, distribute, or modify this code under terms and conditions of the Code of Students Behavior at University of Alberta
+ *
+ *
+ */
+
+package ca.ualberta.cs.lonelytwitter.util;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,6 +17,8 @@ import java.util.List;
 
 import android.content.Context;
 import android.util.Log;
+
+import ca.ualberta.cs.lonelytwitter.model.NormalLonelyTweet;
 
 public class TweetsFileManager {
 

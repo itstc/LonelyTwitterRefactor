@@ -1,4 +1,10 @@
-package ca.ualberta.cs.lonelytwitter;
+/*
+ * Copyright (c) Team X, CMPUT301, University of Alberta - All Rights Reserved. You may use, distribute, or modify this code under terms and conditions of the Code of Students Behavior at University of Alberta
+ *
+ *
+ */
+
+package ca.ualberta.cs.lonelytwitter.ui;
 
 import java.util.Date;
 import java.util.List;
@@ -10,6 +16,10 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import ca.ualberta.cs.lonelytwitter.R;
+import ca.ualberta.cs.lonelytwitter.util.TweetsFileManager;
+import ca.ualberta.cs.lonelytwitter.model.NormalLonelyTweet;
 
 public class LonelyTwitterActivity extends Activity {
 
